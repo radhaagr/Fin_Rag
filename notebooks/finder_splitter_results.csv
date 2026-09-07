@@ -1,0 +1,2 @@
+chunk_size,chunk_overlap,n_chunks,n_queries_scored,recall@5,ndcg@5
+256,64,15594,64,0.3515625,0.2805554351153713
