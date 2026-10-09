@@ -1,0 +1,49 @@
+# Local environment / secrets
+.env
+.env.*
+*.key
+voyageKey.txt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache / compiled files
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+
+# Generated data / vector stores / caches
+*.pkl
+*.bin
+*.sqlite3
+*.sqlite
+*.parquet
+*.idx
+*.db
+*.db/
+*.jsonl
+*.lock
+
+notebooks/earnings_chroma/
+notebooks/embedding_cache/
+notebooks/milvus_earnings.db/
+notebooks/qdrant_data/
+notebooks/transcripts/
+notebooks/anaconda_projects/
+notebooks/extracted_reports.jsonl
+notebooks/finder_hybridRetriever_results.csv
+notebooks/elbow_plot.png
+
+results/finder_hybridRetriever_results.csv
+results/finder_hybridRetrieverfinembed_results.csv
+results/finqa_answer_results.csv
+results/finqa_results.csv
+
+sec_filings/
+finrag_data/
+Ragnarok_Tutorial/ra-gnarok.zip
+
+# Misc local artifacts
+*.bak
